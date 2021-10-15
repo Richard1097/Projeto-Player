@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 700px;
+    background-color: cadetblue ;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.btn{
+    
+    width: 35px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 38px;
+    
+}
+.capa{
+    width: 100%;
+}
+
+#nome_musica{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+#barraProg{
+    justify-content: center;
+    display: flex;
+}
+span{
+    font-size:large;
+}

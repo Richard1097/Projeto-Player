@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Galeria/ICON.jpg" type="image/png">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+
+    <title>Radio Trance</title>
+
+</head>
+<body>
+<div class="container">
+    <div class="tenor-gif-embed" data-postid="9152583" data-share-method="host" data-aspect-ratio="1.37931" data-width="100%"><a href="https://tenor.com/view/dance-kid-club-gif-9152583">Dance Kid GIF</a>from <a href="https://tenor.com/search/dance-gifs">Dance GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<audio id="audio" preload="auto">
+    
+    <source src="./Galeria/Vegas-Elipsy_70k.mp3" >
+    
+    
+</audio>
+
+<div class="controle">
+    <img class="btn" onclick="back()" src="./Galeria/skip-back.svg" >
+    <img class="btn" onclick="play()" src="./Galeria/play.svg" >
+    <img class="btn" onclick="pause()" src="./Galeria/pause.svg" >
+    <img class="btn" onclick="next()" src="./Galeria/skip-forward.svg" >
+    <img class="btn" onclick="diminuirVolume()" src="./Galeria/volume-1.svg" >
+    <img class="btn" onclick="aumentarVolume()" src="./Galeria/volume-2.svg" >
+    <img class="btn" onclick="mute()" src="./Galeria/volume-x.svg" >
+    
+</div>
+<div id="nome_musica"></div>
+<progress id="barraProg" max="0" value="0"></progress>
+<span id="tempo_atual">00:00:00</span> /
+<span id="tempo_total">00:00:00</span>
+
+</div> 
+<script src="./Script.js"></script>
+</body>
+</html>
